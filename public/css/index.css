@@ -1,0 +1,35 @@
+body {
+  background-color: black;
+  background-image: url("https://i.pinimg.com/originals/5c/2b/29/5c2b2971110912a5de3afc97f25e909b.jpg");
+  background-size:     cover;                     
+  background-repeat:   no-repeat;
+  background-position: center center;    
+}
+  
+  #todos {
+    border: 1px solid rgba(0, 0, 0, 0.125);
+  }
+  
+  #wrapper {
+    margin: auto;
+    margin-top: 50px;
+    width: 600px;
+  }
+  
+  .edit,
+  .remove {
+    float: right;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 8px;
+  }
+  
+  .edit {
+    margin-right: 5px;
+  }
+  
+  td {
+    line-height: 35px;
+  }
+  
